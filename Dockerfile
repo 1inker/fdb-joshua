@@ -80,7 +80,8 @@ RUN source /etc/session && \
     pip3 install \
         python-dateutil \
         subprocess32 \
-        psutil && \
+        psutil \
+        boto3 && \
     gem install ffi --platform=ruby && \
     groupadd -r joshua -g 4060 && \
     useradd \
