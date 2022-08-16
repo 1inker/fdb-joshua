@@ -155,7 +155,7 @@ CMD source /etc/session && \
     if test "$RHEL_BASE_MAJOR_VERSION" -eq 7; then \
         source /opt/rh/devtoolset-11/enable && \
         source /opt/rh/rh-python38/enable && \
-        source /opt/rh/rh-ruby27/enable && \
+        source /opt/rh/rh-ruby27/enable; \
     elif test "$RHEL_BASE_MAJOR_VERSION" -ge 8; then \
         source /opt/rh/gcc-toolset-11/enable; \
     fi && \
